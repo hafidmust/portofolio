@@ -1,98 +1,223 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <title>Portofolio</title>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <title>Portofolio</title>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/3d20dd6efa.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white;">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    <div class="container">
-        
-        <img src="assets/Hafid Ali Mustaqim.png" class="img-fluid" alt="...">
-        <br><br>
-        <h1>About</h1>
-        <div class="row">
-          <div class="col-6 border-right"><p>Hi ! My name is Hafid, and I'm a carrer Mobile Developer. My job is responsible for translating code into user-friendly applications,
-            collaborate with internal teams to develop functional mobile applications while working in a fast-paced environment. <br><br>Develop application programming interfaces (APIs) to support mobile functionality while keeping up to date with terminology, concepts and best practices for coding mobile apps. I am contribute to the design, testing, releasing and support of the application. 
-          </p></div>
-          <div class="col-6"><b>Personal Info</b><br>
-            <table class="table table-borderless">
-              <tbody>
-                <tr><td><b>Name</b></td>
-                <td>Hafid Ali Mustaqim</td>
-                </tr>
-                <tr>
-                  <td><b>Place & date of birth</b></td>
-                  <td>Banjarnegara, 10 February 2001</td>
-                </tr>
-                <tr>
-                  <td><b>Sex</b></td>
-                  <td>Male</td>
-                </tr>
-                <tr>
-                  <td><b>Recent Address</b></td>
-                  <td>Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java</td>
-                </tr>
-                <tr>
-                  <td><b>Phone Number</b></td>
-                  <td>+62 82237927844</td>
-                </tr>
-              </tbody>
-            </table>
+  <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">
+          <i class="fas fa-home"></i>
+
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about" style="color: white;" data-toggle="tooltip" title="About">
+          <i class="fas fa-info"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#proyek" style="color: white;" data-toggle="tooltip" title="Project">
+          <i class="fas fa-rocket"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#blog" style="color: white;" data-toggle="tooltip" title="blog"> 
+          <i class="fas fa-blog"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" style="color: white;" data-toggle="tooltip" title="Contact">
+          <i class="fas fa-id-card"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  <div class="container">
+
+    <img src="assets/header.png" class="img-fluid" alt="...">
+    <br><br>
+    <h1 id="about">About</h1>
+    <div class="row">
+      <div class="col-6 border-right">
+        <p>Hi ! My name is Hafid, and I'm a carrer Mobile Developer. My job is responsible for translating code into
+          user-friendly applications,
+          collaborate with internal teams to develop functional mobile applications while working in a fast-paced
+          environment. <br><br>Develop application programming interfaces (APIs) to support mobile functionality while
+          keeping up to date with terminology, concepts and best practices for coding mobile apps. I am contribute to
+          the design, testing, releasing and support of the application.
+        </p>
+      </div>
+      <div class="col-6"><b>Personal Info</b><br>
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td><b>Name</b></td>
+              <td>Hafid Ali Mustaqim</td>
+            </tr>
+            <tr>
+              <td><b>Place & date of birth</b></td>
+              <td>Banjarnegara, 10 February 2001</td>
+            </tr>
+            <tr>
+              <td><b>Sex</b></td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td><b>Recent Address</b></td>
+              <td>Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java</td>
+            </tr>
+            <tr>
+              <td><b>Phone Number</b></td>
+              <td>+62 82237927844</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <h1 id="proyek">Portofolio</h1>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <!-- <img class="card-img-top" src="assets/translation.png" alt="Card image" style="width:100%"> -->
+          <i class="fas fa-language" style="font-size:100px;text-align:center;"></i>
+          <div class="card-body">
+            <h4 class="card-title">NGII Kamus</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            
           </div>
         </div>
-        <h1>Portofolio</h1>
-        Masih kosong yee :(<br>
-        <h1>Blog</h1>
-        nanti diisi blog
-        <h1>Contact Me</h1>
-        <form>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First Name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last Name">
-            </div>
-          </div><br>
-          <input type="email" class="form-control" placeholder="your@email.com"><br>
-          <div class="form-group">
-            <textarea class="form-control" id="" cols="30" rows="10"></textarea>
-          </div>
-          <button type="submit" class="btn btn-dark">Submit</button>
-        </form>
-        <br>
-        <footer class="bg-dark text-center text-white">
-          <!-- Grid container -->
-        
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <i class="fas fa-house-damage" style="font-size:100px;text-align:center;"></i>
 
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-Made with <i class="icon ion-heart" style="color: #e25555;"></i>
-            <a class="text-white">Hafid Ali Mustaqim</a>
+          <div class="card-body">
+            <h4 class="card-title">Siaga Bencana</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            
           </div>
-          <!-- Copyright -->
-        </footer>
+        </div>
+      </div>
+      <div class="col-md-3"><div class="card">
+        <i class="fas fa-pizza-slice" style="font-size:100px;text-align:center;"></i>
+        
+        <div class="card-body">
+          <h4 class="card-title">Foody</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          
+        </div>
+      </div></div>
+      <div class="col-md-3">
+        <div class="card">
+        <i class="fas fa-film" style="font-size:100px;text-align:center;"></i>
+
+          <div class="card-body">
+            <h4 class="card-title">Movie App</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            
+          </div>
+        </div>
+      </div>
     </div>
-    
+
+
+<br><br>
+    <h1 id="blog" style="text-align: center;">Blog</h1>
+    <br>
+    <div class="media border p-3">
+      
+      <div class="media-body">
+        <h3>Konsep MVVM Kotlin <small><i>1 Juli 2021</i></small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+      </div>
+    </div><br>
+
+    <div class="media border p-3">
+      
+      <div class="media-body">
+        <h3>Fundamental Programming<small><i>26 Juni 2021</i></small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+      </div>
+    </div><br>
+
+    <div class="media border p-3">
+      
+      <div class="media-body">
+        <h3>Cracking code interview <small><i>20 Juni 2021</i></small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+      </div>
+    </div><br>
+
+    <br><br>
+    <h2 id="contact">Contact me</h2>
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First Name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last Name">
+        </div>
+      </div><br>
+      <input type="email" class="form-control" placeholder="your@email.com"><br>
+      <div class="form-group">
+        <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+    <br>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <link rel="stylesheet" type="text/css"
+          href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+        Made with <i class="icon ion-heart" style="color: #e25555;"></i>
+        <a class="text-white">Hafid Ali Mustaqim</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </div>
+
+  <script>
+    const biodata = {
+      name: "Hafid Ali Mustaqim",
+      pob: "Banjarnegara, 10 February 2001",
+      sex: "Male",
+      address: "Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java",
+      phone: "+62 82237927844"
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            
+            
+        });
+    });
+});
+
+  </script>
+
 </body>
+
 </html>
