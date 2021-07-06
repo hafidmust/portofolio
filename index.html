@@ -11,7 +11,8 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/3d20dd6efa.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -34,7 +35,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#blog" style="color: white;" data-toggle="tooltip" title="blog"> 
+        <a class="nav-link" href="#blog" style="color: white;" data-toggle="tooltip" title="blog">
           <i class="fas fa-blog"></i>
         </a>
       </li>
@@ -43,7 +44,7 @@
           <i class="fas fa-id-card"></i>
         </a>
       </li>
-      
+
     </ul>
   </nav>
   <div class="container">
@@ -66,100 +67,105 @@
           <tbody>
             <tr>
               <td><b>Name</b></td>
-              <td>Hafid Ali Mustaqim</td>
+              <td id="name"></td>
             </tr>
             <tr>
               <td><b>Place & date of birth</b></td>
-              <td>Banjarnegara, 10 February 2001</td>
+              <td id="pob"></td>
             </tr>
             <tr>
               <td><b>Sex</b></td>
-              <td>Male</td>
+              <td id="sex"></td>
             </tr>
             <tr>
               <td><b>Recent Address</b></td>
-              <td>Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java</td>
+              <td id="address">Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java</td>
             </tr>
             <tr>
               <td><b>Phone Number</b></td>
-              <td>+62 82237927844</td>
+              <td id="phone"></td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
     <h1 id="proyek">Portofolio</h1>
-    
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card">
-          <!-- <img class="card-img-top" src="assets/translation.png" alt="Card image" style="width:100%"> -->
-          <i class="fas fa-language" style="font-size:100px;text-align:center;"></i>
-          <div class="card-body">
-            <h4 class="card-title">NGII Kamus</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <i class="fas fa-house-damage" style="font-size:100px;text-align:center;"></i>
 
-          <div class="card-body">
-            <h4 class="card-title">Siaga Bencana</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            
+    <div class="row" id="projectList">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <!-- <img class="card-img-top" src="assets/translation.png" alt="Card image" style="width:100%"> -->
+            <i class="fas fa-language" style="font-size:100px;text-align:center;"></i>
+            <div class="card-body">
+              <h4 class="card-title">NGII Kamus</h4>
+              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+              
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3"><div class="card">
-        <i class="fas fa-pizza-slice" style="font-size:100px;text-align:center;"></i>
-        
-        <div class="card-body">
-          <h4 class="card-title">Foody</h4>
-          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        <div class="col-md-3">
+          <div class="card">
+            <i class="fas fa-house-damage" style="font-size:100px;text-align:center;"></i>
+  
+            <div class="card-body">
+              <h4 class="card-title">Siaga Bencana</h4>
+              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"><div class="card">
+          <i class="fas fa-pizza-slice" style="font-size:100px;text-align:center;"></i>
           
-        </div>
-      </div></div>
-      <div class="col-md-3">
-        <div class="card">
-        <i class="fas fa-film" style="font-size:100px;text-align:center;"></i>
-
           <div class="card-body">
-            <h4 class="card-title">Movie App</h4>
+            <h4 class="card-title">Foody</h4>
             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             
+          </div>
+        </div></div>
+        <div class="col-md-3">
+          <div class="card">
+          <i class="fas fa-film" style="font-size:100px;text-align:center;"></i>
+  
+            <div class="card-body">
+              <h4 class="card-title">Movie App</h4>
+              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+              
+            </div>
           </div>
         </div>
       </div>
     </div>
 
 
-<br><br>
+    <br><br>
     <h1 id="blog" style="text-align: center;">Blog</h1>
     <br>
     <div class="media border p-3">
-      
+
       <div class="media-body">
         <h3>Konsep MVVM Kotlin <small><i>1 Juli 2021</i></small></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
       </div>
     </div><br>
 
     <div class="media border p-3">
-      
+
       <div class="media-body">
         <h3>Fundamental Programming<small><i>26 Juni 2021</i></small></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
       </div>
     </div><br>
 
     <div class="media border p-3">
-      
+
       <div class="media-body">
         <h3>Cracking code interview <small><i>20 Juni 2021</i></small></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
       </div>
     </div><br>
 
@@ -195,26 +201,89 @@
       <!-- Copyright -->
     </footer>
   </div>
-
+  <script src="./js/data_project.js"></script>
   <script>
-    const biodata = {
-      name: "Hafid Ali Mustaqim",
-      pob: "Banjarnegara, 10 February 2001",
-      sex: "Male",
-      address: "Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java",
-      phone: "+62 82237927844"
+let data_project = {
+    0: {
+        title : "NGII Kamus",
+        desc : "Some example text some example text. John Doe is an architect and engineer",
+        image : "fa-language"
+    },
+    1:{
+        title : "Siaga Bencana",
+        desc : "Some example text some example text. John Doe is an architect and engineer",
+        image : "fa-house-damage"
+    },
+    2:{
+        title : "Foody",
+        desc : "Some example text some example text. John Doe is an architect and engineer",
+        image : "fa-pizza-slice"
+
+    },
+    3:{
+        title : "Movie App",
+        desc : "Some example text some example text. John Doe is an architect and engineer",
+        image : "fa-film"
     }
+}
+const biodata = {
+    name: "Hafid Ali Mustaqim",
+    pob: "Banjarnegara, 10 February 2001",
+    sex: "Male",
+    address: "Kaliajir RT 05 RW 02, District Purwonegoro,City Banjarnegara, Central Java",
+    phone: "+62 82237927844"
+  }
+
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+      anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
         document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth',
-            
-            
+          behavior: 'smooth',
+
+
         });
+      });
     });
-});
+
+    let name = document.getElementById("name")
+    name.innerHTML = biodata.name
+
+    let pob = document.getElementById("pob")
+    pob.innerHTML = biodata.pob
+
+    let sex = document.getElementById("sex")
+    sex.innerHTML = biodata.sex
+
+    let address = document.getElementById("address")
+    address.innerHTML = biodata.address
+
+    let phone = document.getElementById("phone")
+    phone.innerHTML = biodata.phone
+
+    let pList = document.getElementById("projectList")
+    for(let i in data_project){
+      let projectt = document.createElement("div")
+      projectt.setAttribute("class","col-md-3")
+      let card = document.createElement("div")
+      card.setAttribute("class","card")
+
+      card.innerHTML = '<i class="fas '+data_project[i].image+'" style="font-size:100px;text-align:center;>';
+      card.innerHTML += `
+      <div class="card-body">
+            <h4 class="card-title">${data_project[i].title}</h4>
+            <p class="card-text">${data_project[i].desc}</p>
+
+          </div>
+      `;
+    pList.appendChild(projectt) 
+    }
+
+
+
+
+
 
   </script>
 
